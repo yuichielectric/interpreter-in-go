@@ -16,8 +16,15 @@ const (
 	INT   = "INT"   // 123456
 
 	// Operations
-	ASSIGN = "="
-	PLUS   = "+"
+	ASSIGN   = "="
+	PLUS     = "+"
+	MINUS    = "-"
+	BANG     = "!"
+	ASTERISK = "*"
+	SLASH    = "/"
+
+	LT = "<"
+	GT = ">"
 
 	// Delimiter
 	COMMA     = ","
